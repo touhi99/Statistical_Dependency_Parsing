@@ -2,7 +2,7 @@
 
 ### Author: Touhidul Alam
 
-####Usage:
+#### Usage:
 
 ```
 python3 parser.py [train/dev/test] [en/de] file_path_location
@@ -14,13 +14,13 @@ Example:
 python3 parser.py train en /mount/studenten/dependency-parsing/data/english/train/wsj_train.only-projective.conll06 
 ```
 
-###Dependencies:
+### Dependencies:
 
 * Numpy
 * pickle
 
 
-###Components
+### Components
 
 * parser.py
 	* State - class initialize initial stack, buffer, arcs, left-dependency and right-dependency
@@ -36,7 +36,7 @@ python3 parser.py train en /mount/studenten/dependency-parsing/data/english/trai
 	* Model - saves the FeatureMapper and weights, implemented with Averaged perceptron
 
 
-###Output File
+### Output File
 
 ```
 pred_en.conll06 - English
